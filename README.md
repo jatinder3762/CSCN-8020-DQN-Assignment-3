@@ -38,19 +38,41 @@ Implemented requirements:
 - `requirements.txt`: Reproducible dependency list.
 - `CSCN8020_Assignment3_Report.pdf`: PDF report with assignment title, student details, and repo link.
 
+## Deliverables Included In This Repository
+
+This repository includes all required submission files for Assignment 3:
+1. Jupyter notebook implementation: `CSCN8020_Assignment3_DQN_Pong.ipynb`
+2. Required utility file: `assignment3_utils.py`
+3. Reproducibility dependencies: `requirements.txt`
+4. Required report PDF: `CSCN8020_Assignment3_Report.pdf`
+
+The PDF is intentionally kept in this repo as part of the assignment deliverables.
+
 ## How To Run
 
-1. Install dependencies:
+1. (Recommended) Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Windows PowerShell:
+
+```bash
+.\.venv\Scripts\Activate.ps1
+```
+
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Open the notebook:
+3. Open the notebook:
 
 `CSCN8020_Assignment3_DQN_Pong.ipynb`
 
-3. Run all cells from top to bottom.
+4. Run all cells from top to bottom.
 
 Notes:
 - For long, stronger training, increase episode count in the notebook.
