@@ -34,9 +34,7 @@ Implemented requirements:
 
 ## Prerequisite Workshop
 
-The week 6 prerequisite Multi-Armed Bandit workshop was completed separately in:
-
-`C:\wamp64\www\Sem_2\CSCN8020-Reinforcement-Learning\Assignments\Assignment-3`
+The week 6 prerequisite Multi-Armed Bandit workshop was completed first, and the supporting files used from that work are now also included in this repository so the full workflow is easy to explain and show in class.
 
 Generated prerequisite results:
 1. Stationary Casino total reward: `1862`
@@ -44,14 +42,43 @@ Generated prerequisite results:
 
 The class notes PDF (`6 - Exploration Strategies CA.pdf`) and assignment statement PDF (`CSCN8020_Assignment3.pdf`) are also included in this repository for completeness.
 
+## Professor Files Used
+
+These professor workshop files were added to this repository because they directly support how this assignment was prepared:
+
+- `MultiArmedBandit_Workshop.ipynb`: introductory professor workshop notebook for basic epsilon-greedy bandits.
+- `Casino_Challenge_MAB_Workshop.ipynb`: professor competition notebook used for the stationary and non-stationary casino rounds.
+- `Professor_MAB_Workshop_README.md`: copied workshop README with the original learning goals and structure.
+- `submissions_round1.csv`: generated stationary casino leaderboard output from the workshop notebook.
+- `submissions_round2.csv`: generated non-stationary casino leaderboard output from the workshop notebook.
+
+Why these matter for the DQN assignment:
+
+1. The workshop notebooks helped me understand the exploration vs exploitation trade-off before training the DQN agent.
+2. The generated CSV files show the actual output produced from those prerequisite exercises.
+3. The DQN notebook then builds on that idea by using epsilon-greedy exploration during Pong training.
+4. The professor-provided `assignment3_utils.py` file was used in the DQN notebook to preprocess Pong frames before they were sent into the CNN.
+
+Simple class explanation:
+
+- First, I used the professor bandit notebooks to learn why exploration is necessary.
+- Then I generated `submissions_round1.csv` and `submissions_round2.csv` from those workshop runs.
+- After that, I used the professor utility file `assignment3_utils.py` in my Pong notebook.
+- Finally, I trained the DQN with replay memory, a target network, and the required hyperparameter comparisons.
+
 ## Main Files
 
 - `CSCN8020_Assignment3_DQN_Pong.ipynb`: Main notebook (code + markdown + plots + observations).
-- `assignment3_utils.py`: Required helper utility for preprocessing.
+- `assignment3_utils.py`: Professor-provided required helper utility for Pong preprocessing.
 - `requirements.txt`: Reproducible dependency list.
-- `CSCN8020_Assignment3_Report.pdf`: PDF report with assignment title, student details, and repo link.
+- `JatinderPalSingh_9083762_DQN_Assignment3.pdf`: PDF report with assignment title, student details, and repo link.
 - `6 - Exploration Strategies CA.pdf`: Week 6 class notes referenced by the assignment.
 - `CSCN8020_Assignment3.pdf`: Assignment problem statement.
+- `MultiArmedBandit_Workshop.ipynb`: Professor prerequisite bandit workshop notebook.
+- `Casino_Challenge_MAB_Workshop.ipynb`: Professor casino challenge workshop notebook.
+- `submissions_round1.csv`: Generated stationary casino result used to document prerequisite completion.
+- `submissions_round2.csv`: Generated non-stationary casino result used to document prerequisite completion.
+- `Professor_MAB_Workshop_README.md`: Supporting workshop description copied with the professor files.
 
 ## Deliverables Included In This Repository
 
@@ -59,7 +86,7 @@ This repository includes all required submission files for Assignment 3:
 1. Jupyter notebook implementation: `CSCN8020_Assignment3_DQN_Pong.ipynb`
 2. Required utility file: `assignment3_utils.py`
 3. Reproducibility dependencies: `requirements.txt`
-4. Required report PDF: `CSCN8020_Assignment3_Report.pdf`
+4. Required report PDF: `JatinderPalSingh_9083762_DQN_Assignment3.pdf`
 
 The PDF is intentionally kept in this repo as part of the assignment deliverables.
 
