@@ -1,74 +1,48 @@
-%PDF-1.3
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%PDF-1.4
+%âãÏÓ
 1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R
->>
+<< /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
 endobj
 3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<<
-/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Length 425 >>
+stream
+BT
+/F1 20 Tf
+72 740 Td (CSCN8020 Assignment 3 - DQN on PongDeterministic-v4) Tj
+/F1 12 Tf
+72 714 Td (Student Name: Jatinder Pal Singh) Tj
+/F1 12 Tf
+72 692 Td (Student ID: 9083762) Tj
+/F1 12 Tf
+72 670 Td (Course: CSCN8020 Reinforcement Learning) Tj
+/F1 12 Tf
+72 648 Td (Submission Document) Tj
+/F1 12 Tf
+72 626 Td (Repository Link:) Tj
+/F1 10 Tf
+72 604 Td (https://github.com/jatinder3762/CSCN-8020-DQN-Assignment-3.git) Tj
+ET
+endstream
 endobj
 5 0 obj
-<<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
->>
-endobj
-6 0 obj
-<<
-/Author (anonymous) /CreationDate (D:20260328123254-04'00') /Creator (anonymous) /Keywords () /ModDate (D:20260328123254-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
->>
-endobj
-7 0 obj
-<<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
->>
-endobj
-8 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 347
->>
-stream
-GarW46#V??&;BTPMKcF%KO#ii\Q.%S9gc;U]g3KD%'Xo!1$QGk,\l)@Qat=ems?i'!WmD0717<Sr0;pDT_=J@(IGfEWCCrO&P5@kU-LuOn5fX$3%/EGHrc7DgI2m95iC$nY.Bo[LFM*DW/\EA3^DLg?m9*ZnfQ;)lh^2=amt`1]]>*bOpooeK.V:IIEf8.T@3oR,+_91i3rO!<pU_sODZi;%Vsm#.60.8GAJ99P>c^I4g>r`>'AVI-E*Isg;N_9G'1Rk$JkQ69:n#b:H-u(2ehPWr:e(5WnCjPY.tgU-5cUCfhdMlT?*\T76gG"C\.F7,rL&oPOBEqhDKMV7MpOS4.Lee~>endstream
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 xref
-0 9
+0 6
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000514 00000 n 
-0000000582 00000 n 
-0000000843 00000 n 
-0000000902 00000 n 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000723 00000 n 
 trailer
-<<
-/ID 
-[<0c7e3899b971634fc9ddfa6aae9c9e65><0c7e3899b971634fc9ddfa6aae9c9e65>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 6 0 R
-/Root 5 0 R
-/Size 9
->>
+<< /Size 6 /Root 1 0 R >>
 startxref
-1339
+793
 %%EOF

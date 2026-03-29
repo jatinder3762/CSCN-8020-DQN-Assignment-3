@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter runtime and checkpoints
+.jupyter_runtime/
+.ipynb_checkpoints/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Keep required assignment deliverables tracked
+!6 - Exploration Strategies CA.pdf
+!CSCN8020_Assignment3.pdf
+!CSCN8020_Assignment3_Report.pdf
