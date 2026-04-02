@@ -124,17 +124,22 @@ Notes:
 
 ## Best Hyperparameter Choice
 
-From the required sweeps, the selected configuration is:
-- Mini-batch size: 8
-- Target update rate: every 10 episodes
+600-episode runs executed on April 2, 2026 (ALE/Pong-v5 fallback):
+- Mini-batch size: **16**
+- Target update rate: **every 3 episodes**
+- Final rolling average (last 5): **+8.4**
+- Best rolling average: **+10.0**
+- Final score: **+7**
 
-Rationale: this configuration is more stable in early training and aligns with assignment defaults.
+Other measured runs for reference:
+- Batch 16 / Target 10: final avg **-0.8**, best rolling **5.6**
+- Batch 8 / Target 3: final avg **-4.6**, best rolling **1.4**
+- Batch 8 / Target 10 (default): final avg **-8.8**, best rolling **-0.6**
 
-## Verified Execution Summary
+Batch 16 with target updates every 3 episodes was the only configuration that kept the rolling average positive through the end of training.
 
-The notebook was executed successfully in the repo's single `.venv` using CPU-only PyTorch. In this environment, the legacy `PongDeterministic-v4` id was unavailable, so the notebook used its fallback `ALE/Pong-v5` configuration.
+## Execution Plan & Status
 
-Observed executed results:
-1. Default run (`batch=8`, `target=10`): final score `-19`, best score `-18`, final average last 5 episodes `-20.0`, total steps `18,681`
-2. Batch-size study: `batch=8` slightly outperformed `batch=16`
-3. Target-update study: updating every `10` episodes slightly outperformed updating every `3` episodes
+- Notebook executed for **600-episode** runs on April 2, 2026; outputs are saved in `CSCN8020_Assignment3_DQN_Pong.ipynb`.
+- Environment fallback remains `ALE/Pong-v5` when `PongDeterministic-v4` is unavailable.
+- Results are recorded; no further rerun is pending unless a multi-seed verification is desired.
